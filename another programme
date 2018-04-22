@@ -1,0 +1,11 @@
+import random
+number1=random.randint(1,1000)
+number2=random.randint(1,1000)
+print(str(number1),'+',str(number2))
+answer=input()
+if int(answer)==number1+number2:
+    print('correct')
+else:
+    print('your answer is wrong')
+    #Another programme for rookies.Which u may pay attention to is that line 6 int(answer).We cant write straight 
+    #'answer' because a string cant equal to a number.
